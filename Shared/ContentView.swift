@@ -68,7 +68,7 @@ struct ContentView: View {
 //            }
             
             Button(kana) {
-                let player = Player(word: kana)
+                var player = Player(word: kana)
                 player.play()
             }
         }
