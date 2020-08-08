@@ -15,6 +15,10 @@
 		9A91234D24D94B230074B87A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91232224D94B220074B87A /* ContentView.swift */; };
 		9A91234E24D94B230074B87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A91232324D94B230074B87A /* Assets.xcassets */; };
 		9A91234F24D94B230074B87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A91232324D94B230074B87A /* Assets.xcassets */; };
+		9AC0FF5524DA7C2400645258 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0FF5424DA7C2400645258 /* Player.swift */; };
+		9AC0FF5624DA7C2400645258 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0FF5424DA7C2400645258 /* Player.swift */; };
+		9AC0FF5824DA808000645258 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0FF5724DA808000645258 /* Word.swift */; };
+		9AC0FF5924DA808000645258 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0FF5724DA808000645258 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		9A91234324D94B230074B87A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A91234724D94B230074B87A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9A91234924D94B230074B87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC0FF5424DA7C2400645258 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9AC0FF5724DA808000645258 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				9A91232124D94B220074B87A /* PandaApp.swift */,
 				9A91232224D94B220074B87A /* ContentView.swift */,
+				9AC0FF5424DA7C2400645258 /* Player.swift */,
+				9AC0FF5724DA808000645258 /* Word.swift */,
 				9A91232324D94B230074B87A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A91234C24D94B230074B87A /* ContentView.swift in Sources */,
+				9AC0FF5824DA808000645258 /* Word.swift in Sources */,
+				9AC0FF5524DA7C2400645258 /* Player.swift in Sources */,
 				9A91234A24D94B230074B87A /* PandaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A91234D24D94B230074B87A /* ContentView.swift in Sources */,
+				9AC0FF5924DA808000645258 /* Word.swift in Sources */,
+				9AC0FF5624DA7C2400645258 /* Player.swift in Sources */,
 				9A91234B24D94B230074B87A /* PandaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
